@@ -95,10 +95,10 @@
 
         KIGOU {
             bindings = <
-&kp EXCLAMATION              &kp AT             &kp HASH               &kp DOLLAR       &kp PERCENT                                        &kp CARET  &kp AMPERSAND  &kp MINUS  &kp EQUAL       &kp INTERNATIONAL_3
-&kp LESS_THAN                &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &trans     &trans         &kp EQUAL  &kp LEFT_BRACE  &trans
-&mt LEFT_SHIFT GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &trans     &trans         &trans     &kp LS(SLASH)   &kp BACKSLASH
-&trans                       &trans             &trans                 &trans           &trans        &trans                       &trans  &trans                                               &trans
+&kp EXCLAMATION              &kp AT             &kp HASH               &kp DOLLAR       &kp PERCENT                                        &kp CARET          &kp AMPERSAND  &kp MINUS  &kp EQUAL       &kp INTERNATIONAL_3
+&kp LESS_THAN                &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp LG(LS(RIGHT))  &trans         &kp EQUAL  &kp LEFT_BRACE  &trans
+&mt LEFT_SHIFT GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &kp LG(LS(LEFT))   &trans         &trans     &kp LS(SLASH)   &kp BACKSLASH
+&trans                       &trans             &trans                 &trans           &trans        &trans                       &trans  &trans                                                       &trans
             >;
         };
 

@@ -17,8 +17,8 @@
             key-positions = <11 12>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
+        henkan {
+            bindings = <&to_layer_0 INTERNATIONAL_4>;
             key-positions = <11 10>;
         };
 
@@ -65,6 +65,11 @@
         del2 {
             bindings = <&kp DEL>;
             key-positions = <28 40>;
+        };
+
+        muhenkan {
+            bindings = <&to_layer_0 INTERNATIONAL_5>;
+            key-positions = <22 23>;
         };
     };
 

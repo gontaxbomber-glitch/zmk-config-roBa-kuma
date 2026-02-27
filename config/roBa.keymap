@@ -101,7 +101,7 @@
         KIGOU {
             bindings = <
 &kp EXCLAMATION              &kp AT             &kp HASH              &kp DOLLAR  &kp PERCENT                                       &kp CARET          &kp AMPERSAND  &kp MINUS      &kp EQUAL       &kp INTERNATIONAL_3
-&kp LESS_THAN                &kp RIGHT_BRACKET  &kp ASTERISK          &trans      &trans       &kp LC(LA(KP_NUMBER_0))      &trans  &kp LG(LS(RIGHT))  &trans         &kp LS(MINUS)  &kp LEFT_BRACE  &trans
+&kp LESS_THAN                &kp RIGHT_BRACKET  &kp ASTERISK          &trans      &trans       &kp LC(LA(KP_NUMBER_0))      &trans  &kp LG(LS(RIGHT))  &trans         &kp LS(MINUS)  &kp LEFT_BRACE  &kp LEFT_BRACKET
 &mt LEFT_SHIFT GREATER_THAN  &kp BACKSLASH      &kp LEFT_PARENTHESIS  &trans      &trans       &trans                       &trans  &kp LG(LS(LEFT))   &trans         &trans         &kp LS(SLASH)   &kp BACKSLASH
 &trans                       &trans             &trans                &trans      &trans       &trans                       &trans  &trans                                                           &trans
             >;

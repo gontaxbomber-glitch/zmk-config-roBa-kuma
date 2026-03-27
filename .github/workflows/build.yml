@@ -124,6 +124,14 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache_name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
+            
+      - name: Clean old west modules
+        run: |
+          rm -rf ${{ env.base_dir }}/.west
+          rm -rf ${{ env.base_dir }}/zephyr
+          rm -rf ${{ env.base_dir }}/modules
+          rm -rf ${{ env.base_dir }}/bootloader
+          rm -rf ${{ env.base_dir }}/zmk
 
       - name: West Init
         working-directory: ${{ env.base_dir }}
